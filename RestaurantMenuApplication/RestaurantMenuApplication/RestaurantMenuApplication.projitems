@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{ABDDDD4F-6EA1-48D7-BCBF-EDA2F9E0D168}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>RestaurantMenuApplication</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Drinks.xaml.cs">
+      <DependentUpon>Drinks.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)EatIn.xaml.cs">
+      <DependentUpon>EatIn.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)EatIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\menu.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)breakfastburger.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)burger1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)burgerking.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)chickendish.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)halloweenpasta.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)menu.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)menu2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)menu3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)pasta.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)steak.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)steak2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)veggieBurger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Drinks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

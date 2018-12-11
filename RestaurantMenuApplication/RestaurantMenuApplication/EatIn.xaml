@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestaurantMenuApplication.EatIn"
+             BackgroundColor="PaleVioletRed">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text="Welcome to our Restaurant!!"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="45"
+                    TextColor="BlanchedAlmond"/>
+
+                <Image Aspect="AspectFit" 
+                    Source="breakfastburger.jpg"  
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <Label Text="Price: £15.99" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Breakfast Burger" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered_Clicked"/>
+
+                <Image Aspect="AspectFit" 
+                    Source="steak.jpg" 
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <Label Text="Price: £21.99"
+                    TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Seared Steak and Home Baked Fries" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered_Clicked"/>
+
+                <Image Aspect="AspectFit" 
+                    Source="steak2.jpg" 
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <Label Text="Price: £21.99"
+                    TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Scotch sirloin steaks served with potatoes" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered_Clicked"/>
+
+                <Image Aspect="AspectFit" 
+                    Source="pasta.jpg" 
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <Label Text="Price: £12.99"
+                    TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Wholemeal Pasta with Meatballs" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered_Clicked"/>
+
+                <Image Aspect="AspectFit" 
+                    Source="veggieBurger.jpg" 
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <Label Text="Price: £15.99"
+                    TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Bean Burger with Sweet Potato Fries" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered_Clicked"/>
+
+                <Image Aspect="AspectFit" 
+                    Source="halloweenpasta.jpg" 
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <Label Text="Price: £24.99"
+                    TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Halloween themed Pasta" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered_Clicked"/>
+                
+                <Image Aspect="AspectFit" 
+                    Source="chickendish.jpg" 
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <Label Text="Price: £18.99"
+                    TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Golden Chicken and Autumn Vegetables" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered_Clicked"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

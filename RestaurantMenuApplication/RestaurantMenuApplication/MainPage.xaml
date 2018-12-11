@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RestaurantMenuApplication"
+             x:Class="RestaurantMenuApplication.MainPage"
+             BackgroundColor="PaleVioletRed">
+    
+    <!--Allowing users ro scroll the page-->
+    <ScrollView>
+        <StackLayout x:Name="stckLayoutContent">
+           
+            <!-- Place new controls here -->
+            <Label Text="Wine and Dine" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+            FontSize="50"
+            TextColor="BlanchedAlmond"/>
+            <!--ll-->
+
+            <!-- Displaying Images - Logo -->
+            <Image x:Name="imageMain" Aspect="AspectFit" 
+                Source="menu3.png" HeightRequest="250"
+               WidthRequest="250">
+            </Image>
+
+            <!-- Displaying Buttons for User Interaction -->
+
+            <!-- Button 1 -->
+            <Button Text="Eat In"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            WidthRequest="250"
+            HeightRequest="70"
+            FontSize="30"
+            TextColor="Black"
+            BackgroundColor="Beige"
+            BorderColor="Red"
+            BorderWidth="2"  
+            Clicked="Eatin_Clicked"
+            FontAttributes="Italic"/>
+
+            <!-- Button 2 -->
+            <Button Text="Takeaway"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            WidthRequest="250"
+            HeightRequest="70"
+            FontSize="30"
+            TextColor="Black"
+            BackgroundColor="Beige"
+            BorderColor="Red"
+            BorderWidth="2"  
+            FontAttributes="Italic"
+            Clicked="Eatin_Clicked"/>
+
+            <!-- Button 3 -->
+            <Button Text="Desserts"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            WidthRequest="250"
+            HeightRequest="70"
+            FontSize="30"
+            TextColor="Black"
+            BackgroundColor="Beige"
+            BorderColor="Red"
+            BorderWidth="2"  
+            FontAttributes="Italic"
+            Clicked="Eatin_Clicked"/>
+
+            <!-- Button 4 -->
+            <Button Text="About"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            WidthRequest="250"
+            HeightRequest="70"
+            FontSize="30"
+            TextColor="Black"
+            BackgroundColor="Beige"
+            BorderColor="Red"
+            BorderWidth="2"  
+            FontAttributes="Italic"
+            Clicked="Eatin_Clicked"/>
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>
