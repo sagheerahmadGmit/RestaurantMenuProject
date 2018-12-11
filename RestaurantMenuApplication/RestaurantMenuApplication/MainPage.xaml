@@ -15,7 +15,7 @@
            VerticalOptions="CenterAndExpand"
             FontSize="50"
             TextColor="BlanchedAlmond"/>
-            <!--ll-->
+            
 
             <!-- Displaying Images - Logo -->
             <Image x:Name="imageMain" Aspect="AspectFit" 
