@@ -14,7 +14,7 @@
                     TextColor="BlanchedAlmond"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="breakfastburger.jpg"  
+                    Source="breakfastburger.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: £15.99" TextColor="Black" 

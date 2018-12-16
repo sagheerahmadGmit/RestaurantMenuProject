@@ -10,17 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace RestaurantMenuApplication
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Drinks : ContentPage
+	public partial class OrderPage : ContentPage
 	{
-		public Drinks ()
+		public OrderPage ()
 		{
 			InitializeComponent ();
 		}
 
-        private async void OrderPage_Clicked(object sender, EventArgs e)
+        private void HomePage_Clicked(object sender, EventArgs e)
         {
-
-            Application.Current.MainPage = new NavigationPage(new OrderPage());
+            Application.Current.MainPage = new NavigationPage(new MainPage());
         }
     }
 }

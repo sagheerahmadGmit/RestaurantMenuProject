@@ -1,33 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RestaurantMenuApplication.Drinks"
+             x:Class="RestaurantMenuApplication.OrderPage"
              BackgroundColor="PaleVioletRed">
-    
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Label Text="Recommended Drinks"
-                    VerticalOptions="CenterAndExpand" 
+                <Image Aspect="AspectFit" 
+                    Source="waiter.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <Label Text="Your Order has been placed,It will be out to you shortly.While you wait please press continue to go the home page!"
+                    VerticalOptions="CenterAndExpand"
                     HorizontalOptions="CenterAndExpand"
                     FontSize="45"
                     TextColor="BlanchedAlmond"/>
-
-                <Image Aspect="AspectFit" 
-                    Source="wine1.jpg"
-                    HeightRequest="250"
-                    WidthRequest="250"/>
-                <Label Text="Price: £25" TextColor="Black" 
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    FontSize="Medium"
-                    FontAttributes="Bold"/>
-                <Label Text="GatoNegro Cabernet" TextColor="Black" 
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    FontSize="Medium"
-                    FontAttributes="Bold"/>
-                <Button Text="Order"
+                <Button Text="Continue"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
                     WidthRequest="150"
@@ -38,7 +26,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="HomePage_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

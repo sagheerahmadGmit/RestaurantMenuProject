@@ -5,7 +5,7 @@
              x:Class="RestaurantMenuApplication.MainPage"
              BackgroundColor="PaleVioletRed">
     
-    <!--Allowing users ro scroll the page-->
+    <!--Allowing users to scroll the page-->
     <ScrollView>
         <StackLayout x:Name="stckLayoutContent">
            

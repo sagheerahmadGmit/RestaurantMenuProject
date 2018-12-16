@@ -27,6 +27,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)OrderPage.xaml.cs">
+      <DependentUpon>OrderPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)EatIn.xaml">
@@ -48,9 +52,17 @@
     <Content Include="$(MSBuildThisFileDirectory)steak.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)steak2.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)veggieBurger.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)waiter.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)wine1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Drinks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)OrderPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
