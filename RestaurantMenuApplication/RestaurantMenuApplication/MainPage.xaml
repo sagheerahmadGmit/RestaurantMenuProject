@@ -67,7 +67,7 @@
             BorderColor="Red"
             BorderWidth="2"  
             FontAttributes="Italic"
-            Clicked="Eatin_Clicked"/>
+            Clicked="Desserts_Clicked"/>
 
             <!-- Button 4 -->
             <Button Text="About"

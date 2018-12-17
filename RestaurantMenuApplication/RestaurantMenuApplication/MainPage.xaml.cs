@@ -24,5 +24,11 @@ namespace RestaurantMenuApplication
 
             Application.Current.MainPage = new NavigationPage(new EatIn());
         }
+
+        private async void Desserts_Clicked(object sender, EventArgs e)
+        {
+
+            Application.Current.MainPage = new NavigationPage(new Desserts());
+        }
     }
 }

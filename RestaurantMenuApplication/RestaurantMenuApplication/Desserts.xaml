@@ -1,32 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RestaurantMenuApplication.Drinks"
+             x:Class="RestaurantMenuApplication.Desserts"
              BackgroundColor="PaleVioletRed">
-    
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Label Text="Recommended Drinks"
+                <Label Text="Desserts"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                     FontSize="45"
                     TextColor="BlanchedAlmond"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine2.jpg"
+                    Source="cake.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
-                <Label Text="Price: £28.99" TextColor="Black" 
+                <Label Text="Price: £4.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
-                <Label Text="Offely Ruby Porto" TextColor="Black" 
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    FontSize="Medium"
-                    FontAttributes="Bold"/>
+                <Label Text="Lemon Sponge Cake topped off with fresh fruits" 
+                   TextColor="Black" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="Medium"
+                   FontAttributes="Bold"/>
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -38,21 +38,22 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="Ordered_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine3.jpg"
+                    Source="dessertPizza.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
-                <Label Text="Price: £32.99" TextColor="Black" 
+                <Label Text="Price: £12.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
-                <Label Text="Carlo Rossi California" TextColor="Black" 
+                <Label Text="Dessert Pizza - Fresh Fruits" 
+                   TextColor="Black"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    FontSize="Medium"
+                       FontSize="Medium"
                     FontAttributes="Bold"/>
                 <Button Text="Order"
                     VerticalOptions="Center"
@@ -65,21 +66,22 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="Ordered_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine1.jpg"
+                    Source="pizzaChocolate.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
-                <Label Text="Price: £25" TextColor="Black" 
+                <Label Text="Price: £9.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
-                <Label Text="Hardy's Stamp Chardonnay Semillon" TextColor="Black" 
+                <Label Text="Dessert Pizza - Chocolate and Fudge" 
+                   TextColor="Black"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    FontSize="Medium"
+                       FontSize="Medium"
                     FontAttributes="Bold"/>
                 <Button Text="Order"
                     VerticalOptions="Center"
@@ -92,21 +94,22 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="Ordered_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine.jpg"
+                    Source="cheesecake.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
-                <Label Text="Price: £30" TextColor="Black" 
+                <Label Text="Price: £4.50" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
-                <Label Text="Graham's Vintage Port" TextColor="Black" 
+                <Label Text="Slice of White Chocolate Cheesecake" 
+                   TextColor="Black"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    FontSize="Medium"
+                       FontSize="Medium"
                     FontAttributes="Bold"/>
                 <Button Text="Order"
                     VerticalOptions="Center"
@@ -119,21 +122,23 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="Ordered_Clicked"/>
+
 
                 <Image Aspect="AspectFit" 
-                    Source="fizzyDrink.jpg"
+                    Source="brownie.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
-                <Label Text="Click to go to the" TextColor="Black" 
+                <Label Text="Price: £4.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
-                <Label Text="Non-Alcoholic Drink Section" TextColor="Black" 
+                <Label Text="Rocky Road Brownie with a scoop of Vanilla Ice-Cream" 
+                   TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    FontSize="Medium"
+                       FontSize="Medium"
                     FontAttributes="Bold"/>
                 <Button Text="Order"
                     VerticalOptions="Center"
@@ -146,7 +151,21 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="FizzyDrinks_Clicked"/>
+                    Clicked="Ordered_Clicked"/>
+                <Button Text="Home"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="HomePage_Clicked"/>
+
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

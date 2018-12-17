@@ -38,7 +38,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Desserts_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="steak.jpg" 
@@ -66,7 +66,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Desserts_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="steak2.jpg" 
@@ -94,7 +94,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Desserts_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="pasta.jpg" 
@@ -122,7 +122,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Desserts_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="veggieBurger.jpg" 
@@ -150,7 +150,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Desserts_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="halloweenpasta.jpg" 
@@ -178,7 +178,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Desserts_Clicked"/>
                 
                 <Image Aspect="AspectFit" 
                     Source="chickendish.jpg" 
@@ -206,7 +206,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Desserts_Clicked"/>
 
 
             </StackLayout>

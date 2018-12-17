@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RestaurantMenuApplication.Drinks"
+             x:Class="RestaurantMenuApplication.FizzyDrinks"
              BackgroundColor="PaleVioletRed">
-    
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
@@ -14,15 +13,15 @@
                     TextColor="BlanchedAlmond"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine2.jpg"
+                    Source="coke.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
-                <Label Text="Price: £28.99" TextColor="Black" 
+                <Label Text="Price: £1.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
-                <Label Text="Offely Ruby Porto" TextColor="Black" 
+                <Label Text="Coke Glass Bottle 500ml" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
@@ -41,15 +40,15 @@
                     Clicked="OrderPage_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine3.jpg"
+                    Source="fanta.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
-                <Label Text="Price: £32.99" TextColor="Black" 
+                <Label Text="Price: £1.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
-                <Label Text="Carlo Rossi California" TextColor="Black" 
+                <Label Text="Fanta Glass Bottle 500ml" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
@@ -68,15 +67,15 @@
                     Clicked="OrderPage_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine1.jpg"
+                    Source="sprite.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
-                <Label Text="Price: £25" TextColor="Black" 
+                <Label Text="Price: £1.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
-                <Label Text="Hardy's Stamp Chardonnay Semillon" TextColor="Black" 
+                <Label Text="Sprite Glass Bottle 500ml" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
@@ -95,15 +94,15 @@
                     Clicked="OrderPage_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine.jpg"
+                    Source="irnbru.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
-                <Label Text="Price: £30" TextColor="Black" 
+                <Label Text="Price: £1.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
-                <Label Text="Graham's Vintage Port" TextColor="Black" 
+                <Label Text="Irn Bru Bottle 500ml" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
@@ -122,15 +121,15 @@
                     Clicked="OrderPage_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="fizzyDrink.jpg"
+                    Source="drpepper.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
-                <Label Text="Click to go to the" TextColor="Black" 
+                <Label Text="Price: £1.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
-                <Label Text="Non-Alcoholic Drink Section" TextColor="Black" 
+                <Label Text="Dr. Pepper Bottle 500ml" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
@@ -146,7 +145,62 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="FizzyDrinks_Clicked"/>
+                    Clicked="OrderPage_Clicked"/>
+
+                <Image Aspect="AspectFit" 
+                    Source="water.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <Label Text="Price: £2.50" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Mineral Water Bottle 500ml" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="OrderPage_Clicked"/>
+
+                <Image Aspect="AspectFit" 
+                    Source="tapwater.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <Label Text="Price: Free" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Glass of Water" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="OrderPage_Clicked"/>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

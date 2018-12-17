@@ -16,12 +16,20 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Desserts.xaml.cs">
+      <DependentUpon>Desserts.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Drinks.xaml.cs">
       <DependentUpon>Drinks.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)EatIn.xaml.cs">
       <DependentUpon>EatIn.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)FizzyDrinks.xaml.cs">
+      <DependentUpon>FizzyDrinks.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
@@ -41,19 +49,35 @@
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\menu.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)breakfastburger.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)brownie.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)burger1.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)burgerking.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)cake.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)cheesecake.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)chickendish.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)coke.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)dessertPizza.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)drpepper.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)fanta.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)fizzyDrink.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)halloweenpasta.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)irnbru.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)menu.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)menu2.png" />
     <Content Include="$(MSBuildThisFileDirectory)menu3.png" />
     <Content Include="$(MSBuildThisFileDirectory)pasta.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)pizzaChocolate.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)sprite.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)steak.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)steak2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)tapwater.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)veggieBurger.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)waiter.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)water.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)wine.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)wine1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)wine2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)wine3.jpg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Drinks.xaml">
@@ -63,6 +87,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)OrderPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)FizzyDrinks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Desserts.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

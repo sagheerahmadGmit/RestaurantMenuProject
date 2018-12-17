@@ -15,7 +15,20 @@
                     HorizontalOptions="CenterAndExpand"
                     FontSize="45"
                     TextColor="BlanchedAlmond"/>
-                <Button Text="Continue"
+
+                <Button Text="Pay Now"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="HomePage_Clicked"/>
+                <Button Text="Cancel"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
                     WidthRequest="150"
