@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestaurantMenuApplication.Login"
+             BackgroundColor="PaleVioletRed">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="payNowLbl" Text="Please Login to confirm payment!"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="35"
+                    TextColor="BlanchedAlmond"/>
+
+            <Entry x:Name="entryUsername" Placeholder="Username" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"/>
+            <Entry x:Name="entryPassword" Placeholder="Password" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"/>
+            
+            <Button Text="Login"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Login_Clicked"/>
+                
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

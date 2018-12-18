@@ -13,6 +13,10 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -30,6 +34,10 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)FizzyDrinks.xaml.cs">
       <DependentUpon>FizzyDrinks.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
@@ -65,15 +73,18 @@
     <Content Include="$(MSBuildThisFileDirectory)menu.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)menu2.png" />
     <Content Include="$(MSBuildThisFileDirectory)menu3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)noDrink.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)pasta.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)pizzaChocolate.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)sprite.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)steak.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)steak2.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)tapwater.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)tapwater2.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)veggieBurger.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)waiter.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)water.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)water2.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)wine.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)wine1.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)wine2.jpg" />
@@ -99,6 +110,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Desserts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

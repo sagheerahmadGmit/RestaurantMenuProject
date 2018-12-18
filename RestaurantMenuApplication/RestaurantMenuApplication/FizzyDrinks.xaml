@@ -201,6 +201,29 @@
                     FontAttributes="Italic"
                     Clicked="OrderPage_Clicked"/>
 
+                <Image Aspect="AspectFit" 
+                    Source="noDrink.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <Label Text="No Drinks" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Button Text="Continue"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="OrderPage_Clicked"/>
+
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

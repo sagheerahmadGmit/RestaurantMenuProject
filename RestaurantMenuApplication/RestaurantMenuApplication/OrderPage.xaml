@@ -10,11 +10,20 @@
                     Source="waiter.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
-                <Label Text="Your Order has been placed,It will be out to you shortly.While you wait please press continue to go the home page!"
+                <Label Text="Please press Pay now to confirm your order"
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="CenterAndExpand"
-                    FontSize="45"
+                    FontSize="35"
                     TextColor="BlanchedAlmond"/>
+                <Label Text="or press Cancel to go back to the home page"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="35"
+                    TextColor="BlanchedAlmond"/>
+
+                <Label x:Name="mainCourse"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"/>
 
                 <Button Text="Pay Now"
                     VerticalOptions="Center"

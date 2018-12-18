@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,22 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace RestaurantMenuApplication
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class OrderPage : ContentPage
+	public partial class About : ContentPage
 	{
-		public OrderPage ()
+		public About ()
 		{
 			InitializeComponent ();
 		}
 
         private void HomePage_Clicked(object sender, EventArgs e)
         {
-            Application.Current.MainPage = new NavigationPage(new Login());
+            Application.Current.MainPage = new NavigationPage(new MainPage());
         }
-
-        //private void ShowOrder_Clicked(object sender, EventArgs e)
-        //{
-        //    string text = File.ReadAllText("orderList.txt");
-        //    mainCourse.Text
-        //}
     }
 }

@@ -81,7 +81,7 @@
             BorderColor="Red"
             BorderWidth="2"  
             FontAttributes="Italic"
-            Clicked="Eatin_Clicked"/>
+            Clicked="About_Clicked"/>
 
         </StackLayout>
 
