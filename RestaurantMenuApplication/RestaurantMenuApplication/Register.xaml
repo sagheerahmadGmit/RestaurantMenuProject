@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestaurantMenuApplication.Register"
+             BackgroundColor="PaleVioletRed">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Please Register to confirm your payment!"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="35"
+                    TextColor="BlanchedAlmond"/>
+
+            <Entry x:Name="registerUsername" Placeholder="Username" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"/>
+            <Entry x:Name="registerPassword" Placeholder="Password" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"/>
+
+            <Label Text="Card Details"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="35"
+                    TextColor="BlanchedAlmond"/>
+
+            <Entry  Placeholder="Full Name" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"/>
+            <Entry  Placeholder="Card Number" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"/>
+            <Entry  Placeholder="CVS" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="200"/>
+
+            <Button Text="Register"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Register_Clicked"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

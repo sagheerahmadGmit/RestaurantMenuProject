@@ -47,6 +47,14 @@
       <DependentUpon>OrderPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Takeaway.xaml.cs">
+      <DependentUpon>Takeaway.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)EatIn.xaml">
@@ -56,39 +64,39 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\menu.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)breakfastburger.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)brownie.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)burger1.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)burgerking.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)cake.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)cheesecake.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)chickendish.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)coke.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)dessertPizza.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)drpepper.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)fanta.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)fizzyDrink.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)halloweenpasta.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)irnbru.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\breakfastburger.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\brownie.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\burger1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\burgerking.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\cake.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\cheesecake.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\chickendish.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\coke.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\dessertPizza.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\drpepper.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\fanta.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\fizzyDrink.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\halloweenpasta.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\irnbru.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)menu.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)menu2.png" />
-    <Content Include="$(MSBuildThisFileDirectory)menu3.png" />
-    <Content Include="$(MSBuildThisFileDirectory)noDrink.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)pasta.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)pizzaChocolate.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)sprite.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)steak.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)steak2.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)tapwater.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)tapwater2.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)veggieBurger.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)waiter.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)water.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)water2.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)wine.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)wine1.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)wine2.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)wine3.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\menu2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\menu3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\noDrink.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\pasta.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\pizzaChocolate.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\sprite.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\steak.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\steak2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\tapwater.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\tapwater2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\veggieBurger.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\waiter.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\water.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\water2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\wine.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\wine1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\wine2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\wine3.jpg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Drinks.xaml">
@@ -122,6 +130,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Takeaway.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

@@ -19,7 +19,7 @@
 
             <!-- Displaying Images - Logo -->
             <Image x:Name="imageMain" Aspect="AspectFit" 
-                Source="menu3.png" HeightRequest="250"
+                Source="Assets/Images/menu3.png" HeightRequest="250"
                WidthRequest="250">
             </Image>
 

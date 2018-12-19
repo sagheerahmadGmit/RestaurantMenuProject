@@ -13,7 +13,7 @@
                     TextColor="BlanchedAlmond"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="cake.jpg"
+                    Source="Assets/Images/cake.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: £4.99" TextColor="Black" 
@@ -41,7 +41,7 @@
                     Clicked="Ordered_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="dessertPizza.jpg"
+                    Source="Assets/Images/dessertPizza.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: £12.99" TextColor="Black" 
@@ -69,7 +69,7 @@
                     Clicked="Ordered_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="pizzaChocolate.jpg"
+                    Source="Assets/Images/pizzaChocolate.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: £9.99" TextColor="Black" 
@@ -97,7 +97,7 @@
                     Clicked="Ordered_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="cheesecake.jpg"
+                    Source="Assets/Images/cheesecake.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: £4.50" TextColor="Black" 
@@ -124,9 +124,8 @@
                     FontAttributes="Italic"
                     Clicked="Ordered_Clicked"/>
 
-
                 <Image Aspect="AspectFit" 
-                    Source="brownie.jpg"
+                    Source="Assets/Images/brownie.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: £4.99" TextColor="Black" 

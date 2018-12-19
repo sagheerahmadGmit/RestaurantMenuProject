@@ -14,7 +14,7 @@
                     TextColor="BlanchedAlmond"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine2.jpg"
+                    Source="Assets/Images/wine2.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: £28.99" TextColor="Black" 
@@ -41,7 +41,7 @@
                     Clicked="OrderPage_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine3.jpg"
+                    Source="Assets/Images/wine3.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: £32.99" TextColor="Black" 
@@ -68,7 +68,7 @@
                     Clicked="OrderPage_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine1.jpg"
+                    Source="Assets/Images/wine1.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: £25" TextColor="Black" 
@@ -95,7 +95,7 @@
                     Clicked="OrderPage_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="wine.jpg"
+                    Source="Assets/Images/wine.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: £30" TextColor="Black" 
@@ -122,7 +122,7 @@
                     Clicked="OrderPage_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="water2.jpg"
+                    Source="Assets/Images/water2.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: £2.50" TextColor="Black" 
@@ -149,7 +149,7 @@
                     Clicked="OrderPage_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="tapwater2.jpg"
+                    Source="Assets/Images/tapwater2.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Price: Free" TextColor="Black" 
@@ -176,7 +176,7 @@
                     Clicked="OrderPage_Clicked"/>
 
                 <Image Aspect="AspectFit" 
-                    Source="noDrink.jpg"
+                    Source="Assets/Images/noDrink.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="No Drink" TextColor="Black" 
@@ -199,7 +199,7 @@
 
 
                 <Image Aspect="AspectFit" 
-                    Source="fizzyDrink.jpg"
+                    Source="Assets/Images/fizzyDrink.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Click to go to the" TextColor="Black" 

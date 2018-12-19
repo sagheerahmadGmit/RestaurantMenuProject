@@ -32,7 +32,33 @@
                     BorderWidth="2"  
                     FontAttributes="Italic"
                     Clicked="Login_Clicked"/>
-                
+
+            <Button Text="Register"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Register_Clicked"/>
+
+            <Button Text="Cancel"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Cancel_Clicked"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

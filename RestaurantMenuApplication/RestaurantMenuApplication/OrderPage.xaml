@@ -7,7 +7,7 @@
         <ScrollView>
             <StackLayout>
                 <Image Aspect="AspectFit" 
-                    Source="waiter.jpg"
+                    Source="Assets/Images/waiter.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
                 <Label Text="Please press Pay now to confirm your order"
