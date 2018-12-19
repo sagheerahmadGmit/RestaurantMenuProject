@@ -4,23 +4,24 @@
              x:Class="RestaurantMenuApplication.Login"
              BackgroundColor="PaleVioletRed">
     <ContentPage.Content>
-        <StackLayout>
-            <Label x:Name="payNowLbl" Text="Please Login to confirm payment!"
+        <ScrollView>
+            <StackLayout>
+                <Label x:Name="payNowLbl" Text="Please Login to confirm payment!"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                     FontSize="35"
                     TextColor="BlanchedAlmond"/>
 
-            <Entry x:Name="entryUsername" Placeholder="Username" 
+                <Entry x:Name="entryUsername" Placeholder="Username" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     WidthRequest="200"/>
-            <Entry x:Name="entryPassword" Placeholder="Password" 
+                <Entry x:Name="entryPassword" Placeholder="Password" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     WidthRequest="200"/>
-            
-            <Button Text="Login"
+
+                <Button Text="Login"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
                     WidthRequest="150"
@@ -33,7 +34,7 @@
                     FontAttributes="Italic"
                     Clicked="Login_Clicked"/>
 
-            <Button Text="Register"
+                <Button Text="Register"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
                     WidthRequest="150"
@@ -46,7 +47,7 @@
                     FontAttributes="Italic"
                     Clicked="Register_Clicked"/>
 
-            <Button Text="Cancel"
+                <Button Text="Cancel"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
                     WidthRequest="150"
@@ -59,6 +60,7 @@
                     FontAttributes="Italic"
                     Clicked="Cancel_Clicked"/>
 
-        </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

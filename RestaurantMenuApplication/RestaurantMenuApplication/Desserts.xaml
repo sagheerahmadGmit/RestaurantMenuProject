@@ -38,7 +38,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Ordered1_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/dessertPizza.jpg"
@@ -66,7 +66,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Ordered2_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/pizzaChocolate.jpg"
@@ -94,7 +94,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Ordered3_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/cheesecake.jpg"
@@ -122,7 +122,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Ordered4_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/brownie.jpg"
@@ -150,7 +150,8 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Ordered_Clicked"/>
+                    Clicked="Ordered5_Clicked"/>
+                
                 <Button Text="Home"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"

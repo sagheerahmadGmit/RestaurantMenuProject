@@ -28,7 +28,7 @@ namespace RestaurantMenuApplication
 
             if (isTextEmpty || isTextEmpty1 || isTextEmpty2 || isTextEmpty3 || isTextEmpty4)
             {
-
+                await DisplayAlert("Registration Failed!", "Please make sure all fields are filled!", "Retry");
             }
             else
             {

@@ -13,27 +13,21 @@ namespace RestaurantMenuApplication
         {
             InitializeComponent();
         }
-        /*
-                async void Eatin_Clicked(object sender, EventArgs e)
-                {
-                     await Navigation.PushAsync(new EatIn());
-                }
-        */
         private async void Eatin_Clicked(object sender, EventArgs e)
         {
-
             Application.Current.MainPage = new NavigationPage(new EatIn());
         }
-
+        private async void Takeaway_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new NavigationPage(new Takeaway());
+        }
         private async void Desserts_Clicked(object sender, EventArgs e)
         {
-
             Application.Current.MainPage = new NavigationPage(new Desserts());
         }
 
         private async void About_Clicked(object sender, EventArgs e)
         {
-
             Application.Current.MainPage = new NavigationPage(new About());
         }
     }

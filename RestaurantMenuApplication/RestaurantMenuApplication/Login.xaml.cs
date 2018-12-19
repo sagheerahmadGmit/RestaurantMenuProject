@@ -29,14 +29,14 @@ namespace RestaurantMenuApplication
 
             if (isTextEmpty || isTextEmpty1)
             {
-
+                await DisplayAlert("Login Failed!", "Please make sure all fields are filled!", "Retry");
             }
             else
             {
                 if (entryUsername.Text == loginUsername && entryPassword.Text == loginPassword)
                 {
                     await DisplayAlert("Login Successful!", "You Have Successfully paid!", "Home Page");
-                    Application.Current.MainPage = new NavigationPage(new MainPage());
+                    Application.Current.MainPage = new NavigationPage(new Checkout());
                 }
                 else
                 {

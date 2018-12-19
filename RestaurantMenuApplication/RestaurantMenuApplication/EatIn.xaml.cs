@@ -13,33 +13,56 @@ namespace RestaurantMenuApplication
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class EatIn : ContentPage
 	{
+        public static string maincourse;
+        public static double price;
         //string mainCourse1;
 		public EatIn ()
 		{
 			InitializeComponent ();
 		}
 
-        private async void Desserts_Clicked(object sender, EventArgs e)
+        private async void Desserts1_Clicked(object sender, EventArgs e)
         {
+            maincourse = "BreakFast Burger";
+            price = 15.99;
             Application.Current.MainPage = new NavigationPage(new Desserts());
         }
-
-        //private async void Desserts1_Clicked(object sender, EventArgs e)
-        //{
-        //    Application.Current.MainPage = new NavigationPage(new Desserts());
-
-        //    //This gets the full path for the "files" directory of your app, where you have permission to read/write.
-        //    string fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "orderList.txt");
-
-        //    //This creates the full file path to your "testfile.txt" file.
-        //    var filePath = System.IO.Path.Combine(fileName, "orderList.txt");
-
-        //    //Now create the file.
-        //    System.IO.File.Create(fileName);
-
-
-
-        //    File.WriteAllText(fileName, "Breakfast Burger");
-        //}
+        private async void Desserts2_Clicked(object sender, EventArgs e)
+        {
+            maincourse = "Seared Steak";
+            price = 21.99;
+            Application.Current.MainPage = new NavigationPage(new Desserts());
+        }
+        private async void Desserts3_Clicked(object sender, EventArgs e)
+        {
+            maincourse = "Scotch sirloin steak";
+            price = 21.99;
+            Application.Current.MainPage = new NavigationPage(new Desserts());
+        }
+        private async void Desserts4_Clicked(object sender, EventArgs e)
+        {
+            maincourse = "Wholemeal Pasta";
+            price = 12.99;
+            Application.Current.MainPage = new NavigationPage(new Desserts());
+        }
+        private async void Desserts5_Clicked(object sender, EventArgs e)
+        {
+            maincourse = "Vegetarian Burger";
+            price = 15.99;
+            Application.Current.MainPage = new NavigationPage(new Desserts());
+        }
+        private async void Desserts6_Clicked(object sender, EventArgs e)
+        {
+            maincourse = "Halloween themed Pasta";
+            price = 24.99;
+            Application.Current.MainPage = new NavigationPage(new Desserts());
+        }
+        private async void Desserts7_Clicked(object sender, EventArgs e)
+        {
+            maincourse = "Golden Chicken Steak";
+            price = 18.99;
+            Application.Current.MainPage = new NavigationPage(new Desserts());
+        }
+        
     }
 }

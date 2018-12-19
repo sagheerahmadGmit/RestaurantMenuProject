@@ -20,6 +20,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Checkout.xaml.cs">
+      <DependentUpon>Checkout.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Desserts.xaml.cs">
       <DependentUpon>Desserts.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -78,7 +82,6 @@
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\fizzyDrink.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\halloweenpasta.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\irnbru.jpg" />
-    <Content Include="$(MSBuildThisFileDirectory)menu.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\menu2.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\menu3.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\noDrink.jpg" />
@@ -147,6 +150,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)breakfastburger.jpg" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Checkout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

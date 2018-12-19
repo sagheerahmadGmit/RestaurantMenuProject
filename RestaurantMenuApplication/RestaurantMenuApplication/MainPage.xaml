@@ -53,7 +53,7 @@
             BorderColor="Red"
             BorderWidth="2"  
             FontAttributes="Italic"
-            Clicked="Eatin_Clicked"/>
+            Clicked="Takeaway_Clicked"/>
 
             <!-- Button 3 -->
             <Button Text="Desserts"

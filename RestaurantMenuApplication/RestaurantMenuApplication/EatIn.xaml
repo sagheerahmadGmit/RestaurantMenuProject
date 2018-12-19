@@ -38,7 +38,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Desserts_Clicked"/>
+                    Clicked="Desserts1_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/steak.jpg" 
@@ -66,7 +66,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Desserts_Clicked"/>
+                    Clicked="Desserts2_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/steak2.jpg" 
@@ -78,7 +78,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
-                <Label Text="Scotch sirloin steaks served with potatoes" TextColor="Black" 
+                <Label Text="Scotch sirloin steak served with potatoes" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
@@ -94,7 +94,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Desserts_Clicked"/>
+                    Clicked="Desserts3_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/pasta.jpg" 
@@ -122,7 +122,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Desserts_Clicked"/>
+                    Clicked="Desserts4_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/veggieBurger.jpg" 
@@ -150,7 +150,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Desserts_Clicked"/>
+                    Clicked="Desserts5_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/halloweenpasta.jpg" 
@@ -178,7 +178,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Desserts_Clicked"/>
+                    Clicked="Desserts6_Clicked"/>
                 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/chickendish.jpg" 
@@ -206,7 +206,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Desserts_Clicked"/>
+                    Clicked="Desserts7_Clicked"/>
 
 
             </StackLayout>
