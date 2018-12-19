@@ -38,7 +38,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="OrderPage1_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/wine3.jpg"
@@ -65,7 +65,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="OrderPage2_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/wine1.jpg"
@@ -92,7 +92,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="OrderPage3_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/wine.jpg"
@@ -119,7 +119,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="OrderPage4_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/water2.jpg"
@@ -146,7 +146,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="OrderPage5_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/tapwater2.jpg"
@@ -173,7 +173,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="OrderPage6_Clicked"/>
 
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/noDrink.jpg"
@@ -195,7 +195,7 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="OrderPage_Clicked"/>
+                    Clicked="OrderPage7_Clicked"/>
 
 
                 <Image Aspect="AspectFit" 

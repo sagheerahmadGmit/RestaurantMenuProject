@@ -35,7 +35,7 @@ namespace RestaurantMenuApplication
             {
                 if (entryUsername.Text == loginUsername && entryPassword.Text == loginPassword)
                 {
-                    await DisplayAlert("Login Successful!", "You Have Successfully paid!", "Home Page");
+                    await DisplayAlert("Login Successful!", "You Have Successfully paid!", "Continue");
                     Application.Current.MainPage = new NavigationPage(new Checkout());
                 }
                 else

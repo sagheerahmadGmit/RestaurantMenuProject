@@ -11,11 +11,52 @@
                     FontSize="45"
                     TextColor="BlanchedAlmond"/>
 
-            <Label x:Name="foodList"
+            <Label x:Name="mainCourse"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
-                    FontSize="45"
-                    TextColor="BlanchedAlmond"/>
+                    FontSize="35"
+                    TextColor="Black"/>
+            <Label x:Name="dessert"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="35"
+                    TextColor="Black"/>
+            <Label x:Name="drink"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="35"
+                    TextColor="Black"/>
+            <Label x:Name="total"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="35"
+                    TextColor="Black"/>
+            
+            <Button Text="Confirm"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Confirm_Clicked"/>
+
+            <Button Text="Cancel"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Cancel_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
