@@ -29,15 +29,31 @@
             <Entry  Placeholder="Full Name" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    WidthRequest="200"/>
+                    WidthRequest="200"
+                    x:Name="cardName"/>
             <Entry  Placeholder="Card Number" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    WidthRequest="200"/>
+                    WidthRequest="200"
+                    x:Name="cardNum"/>
             <Entry  Placeholder="CVS" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    WidthRequest="200"/>
+                    WidthRequest="200"
+                    x:Name="cvs"/>
+
+            <Button Text="Check Requirements"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="300"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="CheckRequirements_Clicked"/>
 
             <Button Text="Register"
                     VerticalOptions="Center"
@@ -50,7 +66,9 @@
                     BorderColor="Black"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="Register_Clicked"/>
+                    Clicked="Register_Clicked"
+                    IsEnabled="false"
+                    x:Name="registerBtn"/>
 
 
         </StackLayout>

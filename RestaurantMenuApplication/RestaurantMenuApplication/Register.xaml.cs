@@ -11,11 +11,29 @@ namespace RestaurantMenuApplication
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Register : ContentPage
     {
-        string username;
-        string password;
+        public static string username;
+        public static string password;
     public Register()
         {
             InitializeComponent();
+        }
+
+        private async void CheckRequirements_Clicked(object sender, EventArgs e)
+        {
+            bool isTextEmpty = string.IsNullOrEmpty(registerUsername.Text);
+            bool isTextEmpty1 = string.IsNullOrEmpty(registerPassword.Text);
+            bool isTextEmpty2 = string.IsNullOrEmpty(cardName.Text);
+            bool isTextEmpty3 = string.IsNullOrEmpty(cardNum.Text);
+            bool isTextEmpty4 = string.IsNullOrEmpty(cvs.Text);
+
+            if (isTextEmpty || isTextEmpty1 || isTextEmpty2 || isTextEmpty3 || isTextEmpty4)
+            {
+
+            }
+            else
+            {
+                registerBtn.IsEnabled = true;
+            }
         }
         private async void Register_Clicked(object sender, EventArgs e)
         { 

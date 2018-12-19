@@ -21,18 +21,27 @@ namespace RestaurantMenuApplication
 
         private async void Login_Clicked(object sender, EventArgs e)
         {
+            loginUsername = Register.username;
+            loginPassword = Register.password;
 
-           // loginUsername = username;
-           // loginPassword = password;
+            bool isTextEmpty = string.IsNullOrEmpty(entryUsername.Text);
+            bool isTextEmpty1 = string.IsNullOrEmpty(entryPassword.Text);
 
-            if (entryUsername.Text == "Sagheer" && entryPassword.Text == "1234")
+            if (isTextEmpty || isTextEmpty1)
             {
-                await DisplayAlert("Login Successful!", "You Have Successfully paid!", "Home Page");
-                Application.Current.MainPage = new NavigationPage(new MainPage());
+
             }
             else
             {
-                await DisplayAlert("Login failed!", "Login unsuccessful!", "Retry");
+                if (entryUsername.Text == loginUsername && entryPassword.Text == loginPassword)
+                {
+                    await DisplayAlert("Login Successful!", "You Have Successfully paid!", "Home Page");
+                    Application.Current.MainPage = new NavigationPage(new MainPage());
+                }
+                else
+                {
+                    await DisplayAlert("Login failed!", "Login unsuccessful!", "Retry");
+                }
             }
         }
         private void Register_Clicked(object sender, EventArgs e)
