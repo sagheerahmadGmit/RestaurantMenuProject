@@ -17,15 +17,17 @@ namespace RestaurantMenuApplication
 		{
 			InitializeComponent ();
 		}
-
+        // go to the login page
         private void Login_Clicked(object sender, EventArgs e)
         {
             Application.Current.MainPage = new NavigationPage(new Login());
         }
+        //go back to the homepage and restart
         private void HomePage_Clicked(object sender, EventArgs e)
         {
             Application.Current.MainPage = new NavigationPage(new MainPage());
         }
+        // go to takeaway page and add it to the order
         private void Takeaway_Clicked(object sender, EventArgs e)
         {
             Application.Current.MainPage = new NavigationPage(new Takeaway());

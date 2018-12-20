@@ -6,21 +6,25 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
+                <!--Heading-->
                 <Label x:Name="payNowLbl" Text="Please Login to confirm payment!"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                     FontSize="35"
                     TextColor="BlanchedAlmond"/>
 
+                <!--Taking in the username-->
                 <Entry x:Name="entryUsername" Placeholder="Username" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     WidthRequest="200"/>
+                <!--Taking in the password-->
                 <Entry x:Name="entryPassword" Placeholder="Password" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     WidthRequest="200"/>
 
+                <!--Checking if username and password is correct-->
                 <Button Text="Login"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -34,6 +38,7 @@
                     FontAttributes="Italic"
                     Clicked="Login_Clicked"/>
 
+                <!--Register to login-->
                 <Button Text="Register"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -47,6 +52,7 @@
                     FontAttributes="Italic"
                     Clicked="Register_Clicked"/>
 
+                <!--Cancel and go back to the homepage-->
                 <Button Text="Cancel"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"

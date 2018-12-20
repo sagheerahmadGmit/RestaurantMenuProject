@@ -7,16 +7,19 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
+                <!--Heading-->
                 <Label Text="Recommended Drinks"
                     VerticalOptions="Center" 
                     HorizontalOptions="Center"
                     FontSize="45"
                     TextColor="BlanchedAlmond"/>
 
+                <!--Image of drinks-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/wine2.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and name of drinks-->
                 <Label Text="Price: £28.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -27,6 +30,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -40,10 +44,12 @@
                     FontAttributes="Italic"
                     Clicked="OrderPage1_Clicked"/>
 
+                <!--Image of drinks-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/wine3.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and name of drinks-->
                 <Label Text="Price: £32.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -54,6 +60,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -67,10 +74,12 @@
                     FontAttributes="Italic"
                     Clicked="OrderPage2_Clicked"/>
 
+                <!--Image of drinks-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/wine1.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and name of drinks-->
                 <Label Text="Price: £25" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -81,6 +90,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -94,10 +104,12 @@
                     FontAttributes="Italic"
                     Clicked="OrderPage3_Clicked"/>
 
+                <!--Image of drinks-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/wine.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and name of drinks-->
                 <Label Text="Price: £30" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -108,6 +120,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -121,10 +134,12 @@
                     FontAttributes="Italic"
                     Clicked="OrderPage4_Clicked"/>
 
+                <!--Image of drinks-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/water2.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and name of drinks-->
                 <Label Text="Price: £2.50" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -135,6 +150,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -148,10 +164,12 @@
                     FontAttributes="Italic"
                     Clicked="OrderPage5_Clicked"/>
 
+                <!--Image of drinks-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/tapwater2.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and name of drinks-->
                 <Label Text="Price: Free" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -162,6 +180,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -175,15 +194,18 @@
                     FontAttributes="Italic"
                     Clicked="OrderPage6_Clicked"/>
 
+                <!--Image of drinks-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/noDrink.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and name of drinks-->
                 <Label Text="No Drink" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Continue"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -197,11 +219,12 @@
                     FontAttributes="Italic"
                     Clicked="OrderPage7_Clicked"/>
 
-
+                <!--Image of drinks-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/fizzyDrink.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and name of drinks-->
                 <Label Text="Click to go to the" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -212,6 +235,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -225,6 +249,7 @@
                     FontAttributes="Italic"
                     Clicked="FizzyDrinks_Clicked"/>
 
+                <!--Home Button-->
                 <Button Text="Home"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"

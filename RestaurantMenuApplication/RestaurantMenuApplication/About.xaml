@@ -6,12 +6,14 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Label Text="About Us!!"
+                <!--Heading-->
+                    <Label Text="About Us!!"
                     VerticalOptions="Center" 
                     HorizontalOptions="Center"
                     FontSize="45"
                     TextColor="BlanchedAlmond"/>
-
+                
+                <!--Info About the restaurant-->
                 <Label Text="Welcome to our Restaurant!!"
                     VerticalOptions="Center" 
                     HorizontalOptions="Center"
@@ -28,6 +30,7 @@
                     HeightRequest="250"
                     WidthRequest="250"/>
 
+                <!--The different ways of contacting us-->
                 <Label Text="Contact Us!!"
                     VerticalOptions="Center" 
                     HorizontalOptions="Center"
@@ -39,6 +42,7 @@
                     FontSize="Medium"
                     TextColor="Black"/>
 
+                <!--Button to go Home-->
                 <Button Text="Home"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"

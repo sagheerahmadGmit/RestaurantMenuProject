@@ -6,17 +6,19 @@
     <ContentPage.Content>
         <ScrollView HorizontalOptions="Center" VerticalOptions="Center">
             <StackLayout>
-
+                <!--Heading-->
                 <Label Text="Welcome to our Restaurant!!"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                     FontSize="45"
                     TextColor="BlanchedAlmond"/>
-
+                
+                <!--image to showcase the main course-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/breakfastburger.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of main course-->
                 <Label Text="Price: £15.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -27,6 +29,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -40,10 +43,12 @@
                     FontAttributes="Italic"
                     Clicked="Desserts1_Clicked"/>
 
+                <!--image to showcase the main course-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/steak.jpg" 
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of main course-->
                 <Label Text="Price: £21.99"
                     TextColor="Black" 
                     HorizontalOptions="Center"
@@ -55,6 +60,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -68,10 +74,12 @@
                     FontAttributes="Italic"
                     Clicked="Desserts2_Clicked"/>
 
+                <!--image to showcase the main course-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/steak2.jpg" 
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of main course-->
                 <Label Text="Price: £21.99"
                     TextColor="Black" 
                     HorizontalOptions="Center"
@@ -83,6 +91,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -96,10 +105,12 @@
                     FontAttributes="Italic"
                     Clicked="Desserts3_Clicked"/>
 
+                <!--image to showcase the main course-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/pasta.jpg" 
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of main course-->
                 <Label Text="Price: £12.99"
                     TextColor="Black" 
                     HorizontalOptions="Center"
@@ -111,6 +122,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -124,10 +136,12 @@
                     FontAttributes="Italic"
                     Clicked="Desserts4_Clicked"/>
 
+                <!--image to showcase the main course-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/veggieBurger.jpg" 
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of main course-->
                 <Label Text="Price: £15.99"
                     TextColor="Black" 
                     HorizontalOptions="Center"
@@ -139,6 +153,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -152,10 +167,12 @@
                     FontAttributes="Italic"
                     Clicked="Desserts5_Clicked"/>
 
+                <!--image to showcase the main course-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/halloweenpasta.jpg" 
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of main course-->
                 <Label Text="Price: £24.99"
                     TextColor="Black" 
                     HorizontalOptions="Center"
@@ -167,6 +184,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -179,11 +197,13 @@
                     BorderWidth="2"  
                     FontAttributes="Italic"
                     Clicked="Desserts6_Clicked"/>
-                
+
+                <!--image to showcase the main course-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/chickendish.jpg" 
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of main course-->
                 <Label Text="Price: £18.99"
                     TextColor="Black" 
                     HorizontalOptions="Center"
@@ -195,6 +215,7 @@
                     VerticalOptions="Center"
                     FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Go to the next page-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -208,6 +229,7 @@
                     FontAttributes="Italic"
                     Clicked="Desserts7_Clicked"/>
 
+                <!--Go to the home page-->
                 <Button Text="Home"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"

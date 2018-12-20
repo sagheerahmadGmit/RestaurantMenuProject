@@ -11,13 +11,14 @@ namespace RestaurantMenuApplication
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Register : ContentPage
     {
+        //setting up variables
         public static string username;
         public static string password;
     public Register()
         {
             InitializeComponent();
         }
-
+        //checking to see if all the fields are filled in
         private async void CheckRequirements_Clicked(object sender, EventArgs e)
         {
             bool isTextEmpty = string.IsNullOrEmpty(registerUsername.Text);
@@ -28,6 +29,7 @@ namespace RestaurantMenuApplication
 
             if (isTextEmpty || isTextEmpty1 || isTextEmpty2 || isTextEmpty3 || isTextEmpty4)
             {
+                //pop up alert if not entered
                 await DisplayAlert("Registration Failed!", "Please make sure all fields are filled!", "Retry");
             }
             else
@@ -35,6 +37,7 @@ namespace RestaurantMenuApplication
                 registerBtn.IsEnabled = true;
             }
         }
+        //saving the variables so they can be accessed later
         private async void Register_Clicked(object sender, EventArgs e)
         { 
             username = registerUsername.Text;

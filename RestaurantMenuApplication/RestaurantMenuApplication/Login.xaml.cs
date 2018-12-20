@@ -12,6 +12,7 @@ namespace RestaurantMenuApplication
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Login : ContentPage
 	{
+        // setting up the variables
         string loginUsername;
         string loginPassword;
 		public Login ()
@@ -19,6 +20,7 @@ namespace RestaurantMenuApplication
 			InitializeComponent ();
 		}
 
+        // if the login matches registeration proceed or pop fail alert
         private async void Login_Clicked(object sender, EventArgs e)
         {
             loginUsername = Register.username;
@@ -44,11 +46,12 @@ namespace RestaurantMenuApplication
                 }
             }
         }
+         //Click to register and login and pay for meal
         private void Register_Clicked(object sender, EventArgs e)
         {
             Application.Current.MainPage = new NavigationPage(new Register());
         }
-
+        //cancel oreder and go back to the home page
         private async void Cancel_Clicked(object sender, EventArgs e)
         {
             await DisplayAlert("Payment Cancelled!", "The Login was Interupted!", "Home");

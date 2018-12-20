@@ -6,6 +6,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
+            <!--Heading-->
             <Label Text="Takeaway Menu!!"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"

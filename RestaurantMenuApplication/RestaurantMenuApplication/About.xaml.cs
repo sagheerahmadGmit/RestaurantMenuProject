@@ -15,8 +15,8 @@ namespace RestaurantMenuApplication
 		public About ()
 		{
 			InitializeComponent ();
-		}
-
+        }
+        //Method to go home
         private void HomePage_Clicked(object sender, EventArgs e)
         {
             Application.Current.MainPage = new NavigationPage(new MainPage());
