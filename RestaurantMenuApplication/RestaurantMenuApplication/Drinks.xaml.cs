@@ -13,7 +13,7 @@ namespace RestaurantMenuApplication
 	public partial class Drinks : ContentPage
 	{
         public static string drink = "";
-        public static double drinkPrice = 0;
+        public static double drinkPrice = 0.00;
 		public Drinks ()
 		{
 			InitializeComponent ();
