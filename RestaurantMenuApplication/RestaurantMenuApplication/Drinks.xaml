@@ -224,6 +224,19 @@
                     BorderWidth="2"  
                     FontAttributes="Italic"
                     Clicked="FizzyDrinks_Clicked"/>
+
+                <Button Text="Home"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Home_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

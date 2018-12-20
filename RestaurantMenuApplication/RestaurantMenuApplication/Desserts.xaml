@@ -6,16 +6,19 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
+                <!--Heading-->
                 <Label Text="Desserts"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                     FontSize="45"
                     TextColor="BlanchedAlmond"/>
-
+                
+                <!--image to showcase the dessert-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/cake.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of Dessert-->
                 <Label Text="Price: £4.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -27,6 +30,7 @@
                    VerticalOptions="Center"
                    FontSize="Medium"
                    FontAttributes="Bold"/>
+                <!--Button to order-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -39,11 +43,13 @@
                     BorderWidth="2"  
                     FontAttributes="Italic"
                     Clicked="Ordered1_Clicked"/>
-
+                
+                <!--image to showcase the dessert-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/dessertPizza.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of Dessert-->
                 <Label Text="Price: £12.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -55,6 +61,7 @@
                     VerticalOptions="Center"
                        FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Button to order-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -67,11 +74,13 @@
                     BorderWidth="2"  
                     FontAttributes="Italic"
                     Clicked="Ordered2_Clicked"/>
-
+                
+                <!--image to showcase the dessert-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/pizzaChocolate.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of Dessert-->
                 <Label Text="Price: £9.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -83,6 +92,7 @@
                     VerticalOptions="Center"
                        FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Button to order-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -95,11 +105,13 @@
                     BorderWidth="2"  
                     FontAttributes="Italic"
                     Clicked="Ordered3_Clicked"/>
-
+                
+                <!--image to showcase the dessert-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/cheesecake.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of Dessert-->
                 <Label Text="Price: £4.50" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -111,6 +123,7 @@
                     VerticalOptions="Center"
                        FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Button to order-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -123,11 +136,13 @@
                     BorderWidth="2"  
                     FontAttributes="Italic"
                     Clicked="Ordered4_Clicked"/>
-
+                
+                <!--image to showcase the dessert-->
                 <Image Aspect="AspectFit" 
                     Source="Assets/Images/brownie.jpg"
                     HeightRequest="250"
                     WidthRequest="250"/>
+                <!--Price and Name of Dessert-->
                 <Label Text="Price: £4.99" TextColor="Black" 
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -139,6 +154,7 @@
                     VerticalOptions="Center"
                        FontSize="Medium"
                     FontAttributes="Bold"/>
+                <!--Button to order-->
                 <Button Text="Order"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -151,7 +167,9 @@
                     BorderWidth="2"  
                     FontAttributes="Italic"
                     Clicked="Ordered5_Clicked"/>
+                <!--image to showcase the dessert-->
                 
+                <!--Button to go back home-->
                 <Button Text="Home"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"

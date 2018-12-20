@@ -67,6 +67,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\falafel.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\fish.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\friedRice.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\friedRice2.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\menu.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\breakfastburger.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\brownie.jpg" />
@@ -85,7 +89,9 @@
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\menu2.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\menu3.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\noDrink.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\noodles.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\pasta.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\pizza.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\pizzaChocolate.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\sprite.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\steak.jpg" />

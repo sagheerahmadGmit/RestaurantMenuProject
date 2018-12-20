@@ -18,11 +18,18 @@ namespace RestaurantMenuApplication
 			InitializeComponent ();
 		}
 
-        private void HomePage_Clicked(object sender, EventArgs e)
+        private void Login_Clicked(object sender, EventArgs e)
         {
             Application.Current.MainPage = new NavigationPage(new Login());
         }
-
+        private void HomePage_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new NavigationPage(new MainPage());
+        }
+        private void Takeaway_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new NavigationPage(new Takeaway());
+        }
         //private void ShowOrder_Clicked(object sender, EventArgs e)
         //{
         //    string text = File.ReadAllText("orderList.txt");

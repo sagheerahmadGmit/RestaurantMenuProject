@@ -13,8 +13,8 @@ namespace RestaurantMenuApplication
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class EatIn : ContentPage
 	{
-        public static string maincourse;
-        public static double price;
+        public static string maincourse = "Nothing";
+        public static double price = 0;
         //string mainCourse1;
 		public EatIn ()
 		{
@@ -63,6 +63,9 @@ namespace RestaurantMenuApplication
             price = 18.99;
             Application.Current.MainPage = new NavigationPage(new Desserts());
         }
-        
+        private async void Home_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new NavigationPage(new MainPage());
+        }
     }
 }

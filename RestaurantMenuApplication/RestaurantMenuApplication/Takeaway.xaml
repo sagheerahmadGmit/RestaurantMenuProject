@@ -6,13 +6,211 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-            <Label Text="Welcome to our Restaurant!!"
+            <Label Text="Takeaway Menu!!"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                     FontSize="45"
                     TextColor="BlanchedAlmond"/>
-            
-            
+
+                <!--image to showcase the takeaway options-->
+                <Image Aspect="AspectFit" 
+                    Source="Assets/Images/fish.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <!--Price and Name of meal-->
+                <Label Text="Price: £8.50" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Battered Cod with Chips" 
+                   TextColor="Black" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="Medium"
+                   FontAttributes="Bold"/>
+                <!--Button to order-->
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered1_Clicked"/>
+
+                <!--image to showcase the takeaway-->
+                <Image Aspect="AspectFit" 
+                    Source="Assets/Images/friedRice.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <!--Price and Name of takeaway-->
+                <Label Text="Price: £9.99" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Vegetarian Fried Rice" 
+                   TextColor="Black"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                       FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <!--Button to order-->
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered2_Clicked"/>
+
+                <!--image to showcase the takeaway-->
+                <Image Aspect="AspectFit" 
+                    Source="Assets/Images/noodles.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <!--Price and Name of takeaway-->
+                <Label Text="Price: £9.99" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Soy sauce fried Noodles" 
+                   TextColor="Black"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <!--Button to order-->
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered3_Clicked"/>
+
+                <!--image to showcase the takeaway-->
+                <Image Aspect="AspectFit" 
+                    Source="Assets/Images/friedRice2.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <!--Price and Name of takeaway-->
+                <Label Text="Price: £12.50" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Cauliflower and Prawn Fried Rice" 
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <!--Button to order-->
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered4_Clicked"/>
+
+                <!--image to showcase the takeaway-->
+                <Image Aspect="AspectFit" 
+                    Source="Assets/Images/pizza.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <!--Price and Name of takeaway-->
+                <Label Text="Price: £12.99" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="12' Pizza - Meat Supreme" 
+                   TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <!--Button to order-->
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered5_Clicked"/>
+                
+                <!--image to showcase the takeaway-->
+                <Image Aspect="AspectFit" 
+                    Source="Assets/Images/falafel.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+                <!--Price and Name of takeaway-->
+                <Label Text="Price: £8.99" TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <Label Text="Pilpel Falafel with salad" 
+                   TextColor="Black" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Medium"
+                    FontAttributes="Bold"/>
+                <!--Button to order-->
+                <Button Text="Order"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="Ordered6_Clicked"/>
+
+                <!--Button to go back home-->
+                <Button Text="Home"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    FontSize="30"
+                    TextColor="Black"
+                    BackgroundColor="Beige"
+                    BorderColor="Black"
+                    BorderWidth="2"  
+                    FontAttributes="Italic"
+                    Clicked="HomePage_Clicked"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -12,7 +12,7 @@ namespace RestaurantMenuApplication
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Drinks : ContentPage
 	{
-        public static string drink = "";
+        public static string drink = "Nothing";
         public static double drinkPrice = 0;
 		public Drinks ()
 		{
@@ -65,6 +65,10 @@ namespace RestaurantMenuApplication
         private async void FizzyDrinks_Clicked(object sender, EventArgs e)
         {
             Application.Current.MainPage = new NavigationPage(new FizzyDrinks());
+        }
+        private async void Home_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new NavigationPage(new MainPage());
         }
     }
 }

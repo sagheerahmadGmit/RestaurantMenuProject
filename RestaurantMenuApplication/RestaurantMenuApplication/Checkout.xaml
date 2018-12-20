@@ -5,33 +5,42 @@
              BackgroundColor="PaleVioletRed">
     <ContentPage.Content>
         <StackLayout>
+            <!-- Heading -->
             <Label Text="Checkout Page!!"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                     FontSize="45"
                     TextColor="BlanchedAlmond"/>
-
+             <!--Outputting the main course-->
             <Label x:Name="mainCourse"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
-                    FontSize="35"
+                    FontSize="Medium"
                     TextColor="Black"/>
+            <!--Outputting the desserts -->
             <Label x:Name="dessert"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
-                    FontSize="35"
+                    FontSize="Medium"
                     TextColor="Black"/>
+            <!--Outputting the Drinks -->
             <Label x:Name="drink"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
-                    FontSize="35"
+                    FontSize="Medium"
                     TextColor="Black"/>
+            <Label x:Name="takeaway"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="Medium"
+                    TextColor="Black"/>
+            <!--Outputting the the total bill-->
             <Label x:Name="total"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="CenterAndExpand"
-                    FontSize="35"
+                    FontSize="Medium"
                     TextColor="Black"/>
-            
+            <!--Button to confirm payment-->
             <Button Text="Confirm"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
@@ -44,7 +53,7 @@
                     BorderWidth="2"  
                     FontAttributes="Italic"
                     Clicked="Confirm_Clicked"/>
-
+            <!--Button to cancel and go back home-->
             <Button Text="Cancel"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
