@@ -4,7 +4,7 @@
              x:Class="RestaurantMenuApplication.EatIn"
              BackgroundColor="PaleVioletRed">
     <ContentPage.Content>
-        <ScrollView>
+        <ScrollView HorizontalOptions="Center" VerticalOptions="Center">
             <StackLayout>
 
                 <Label Text="Welcome to our Restaurant!!"

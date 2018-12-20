@@ -12,7 +12,7 @@ namespace RestaurantMenuApplication
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Drinks : ContentPage
 	{
-        public static string drink = "Nothing";
+        public static string drink = "";
         public static double drinkPrice = 0;
 		public Drinks ()
 		{
