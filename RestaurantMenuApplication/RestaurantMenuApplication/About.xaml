@@ -4,14 +4,42 @@
              x:Class="RestaurantMenuApplication.About"
              BackgroundColor="PaleVioletRed">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="About Us!!"
-                    VerticalOptions="CenterAndExpand" 
-                    HorizontalOptions="CenterAndExpand"
+        <ScrollView>
+            <StackLayout>
+                <Label Text="About Us!!"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
                     FontSize="45"
                     TextColor="BlanchedAlmond"/>
 
-            <Button Text="Home"
+                <Label Text="Welcome to our Restaurant!!"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    FontSize="45"
+                    TextColor="BlanchedAlmond"/>
+                <Label Text="We are delighted to have you with us. Our meat and produce is 100% Irish and fresh. The food is locally sourced and benefits multiple local businesses. We hope you enjoy the food!!"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    FontSize="Medium"
+                    TextColor="Black"/>
+
+                <Image Aspect="AspectFit" 
+                    Source="Assets/Images/farmer.jpg"
+                    HeightRequest="250"
+                    WidthRequest="250"/>
+
+                <Label Text="Contact Us!!"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    FontSize="45"
+                    TextColor="BlanchedAlmond"/>
+                <Label Text="If you have any questions or complains please contact us by our phone number on 089 858 2134 or on our Email at restaurantMenu@gmail.com"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    FontSize="Medium"
+                    TextColor="Black"/>
+
+                <Button Text="Home"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
                     WidthRequest="250"
@@ -22,9 +50,10 @@
                     BorderColor="Red"
                     BorderWidth="2"  
                     FontAttributes="Italic"
-                    Clicked="HomePage_Clicked"/>   
+                    Clicked="HomePage_Clicked"/>
 
 
-        </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\falafel.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Images\farmer.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\fish.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\friedRice.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\Images\friedRice2.jpg" />
